@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		00C8CB30FF6462C17F000001 = {
+			isa = PBXFileReference;
+			path = NotificationPost.c;
+			refType = 4;
+		};
+		00C8CB31FF6462C17F000001 = {
+			fileRef = 00C8CB30FF6462C17F000001;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		00C8CB32FF6462E67F000001 = {
+			fileRef = 20EBBB1CFEAB62A111CA0E35;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+//000
+//001
+//002
+//003
+//004
+//010
+//011
+//012
+//013
+//014
+		01146B7EFF672ED411CA0C5D = {
+			isa = PBXFileReference;
+			path = README.rtf;
+			refType = 4;
+		};
+		01146B7FFF672ED411CA0C5D = {
+			fileRef = 01146B7EFF672ED411CA0C5D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		01D4F80CFFB7A99511CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		01D4F80DFFB7A99511CA0CA4 = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//020
+//021
+//022
+//023
+//024
+		024C40B8FE871B6F11CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		024C40BCFE871FE511CA0C5D = {
+			fileRef = 024C40B8FE871B6F11CA0C5D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//020
+//021
+//022
+//023
+//024
+//040
+//041
+//042
+//043
+//044
+		043355C9FE30361CC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+		};
+//040
+//041
+//042
+//043
+//044
+//080
+//081
+//082
+//083
+//084
+		080E96DCFE201CFB7F000001 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				20EBBB1CFEAB62A111CA0E35,
+				20EBBB1DFEAB62A111CA0E35,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//160
+//161
+//162
+//163
+//164
+		1629D123FF67ED0011CA0C5D = {
+			children = (
+				1629D124FF67ED0011CA0C5D,
+				1629D12DFF67F19911CA0C5D,
+				1629D12EFF67F19911CA0C5D,
+			);
+			isa = PBXGroup;
+			name = "Referenced (Non-linked)";
+			refType = 4;
+		};
+		1629D124FF67ED0011CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+		};
+		1629D12DFF67F19911CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		1629D12EFF67F19911CA0C5D = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+//160
+//161
+//162
+//163
+//164
+//200
+//201
+//202
+//203
+//204
+		20EBBB1CFEAB62A111CA0E35 = {
+			isa = PBXFileReference;
+			path = StockMarket.m;
+			refType = 4;
+		};
+		20EBBB1DFEAB62A111CA0E35 = {
+			isa = PBXFileReference;
+			path = StockMarket.h;
+			refType = 4;
+		};
+		20EBBB1EFEAB62A111CA0E35 = {
+			children = (
+				6F027047FF601DB311CA0E33,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+		20EBBB20FEAB62A111CA0E35 = {
+			fileRef = 20EBBB1DFEAB62A111CA0E35;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//200
+//201
+//202
+//203
+//204
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildStyles = (
+				01D4F80CFFB7A99511CA0CA4,
+				01D4F80DFFB7A99511CA0CA4,
+			);
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				29B97326FDCFA39411CA2CEA,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				01146B7EFF672ED411CA0C5D,
+				080E96DDFE201D6D7F000001,
+				29B97315FDCFA39411CA2CEA,
+				29B97317FDCFA39411CA2CEA,
+				29B97323FDCFA39411CA2CEA,
+				20EBBB1EFEAB62A111CA0E35,
+			);
+			isa = PBXGroup;
+			name = CocoaApp;
+			path = "";
+			refType = 4;
+		};
+		29B97315FDCFA39411CA2CEA = {
+			children = (
+				29B97316FDCFA39411CA2CEA,
+				00C8CB30FF6462C17F000001,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+		};
+		29B97316FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				29B97318FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		29B97318FDCFA39411CA2CEA = {
+			children = (
+				29B97319FDCFA39411CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		29B97319FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				024C40B8FE871B6F11CA0C5D,
+				1629D123FF67ED0011CA0C5D,
+			);
+			isa = PBXGroup;
+			name = "Frameworks and Libraries";
+			path = "";
+			refType = 4;
+		};
+		29B97326FDCFA39411CA2CEA = {
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA,
+				29B97328FDCFA39411CA2CEA,
+				29B9732BFDCFA39411CA2CEA,
+				29B9732DFDCFA39411CA2CEA,
+				043355C9FE30361CC02AAC07,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = StockMarket;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = StockMarket;
+			productInstallPath = "$(HOME)/Applications";
+			productName = StockMarket;
+			productReference = 6F027047FF601DB311CA0E33;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>StockMarket</string>
+	<key>CFBundleGetInfoString</key>
+	<string>CFNotificationCenter Posting Example</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.examples.StockMarket</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Stock Market</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 0;
+		};
+		29B97327FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				20EBBB20FEAB62A111CA0E35,
+			);
+			isa = PBXHeadersBuildPhase;
+		};
+		29B97328FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96DCFE201CFB7F000001,
+				01146B7FFF672ED411CA0C5D,
+			);
+			isa = PBXResourcesBuildPhase;
+		};
+		29B9732BFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA,
+				00C8CB31FF6462C17F000001,
+				00C8CB32FF6462E67F000001,
+			);
+			isa = PBXSourcesBuildPhase;
+		};
+		29B9732CFDCFA39411CA2CEA = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		29B9732DFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				024C40BCFE871FE511CA0C5D,
+			);
+			isa = PBXFrameworksBuildPhase;
+		};
+//290
+//291
+//292
+//293
+//294
+//6F0
+//6F1
+//6F2
+//6F3
+//6F4
+		6F027047FF601DB311CA0E33 = {
+			isa = PBXApplicationReference;
+			path = StockMarket.app;
+			refType = 3;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}
